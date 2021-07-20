@@ -3,13 +3,10 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/james/repos/flipperguy.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-markdown","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
+      options: {"plugins":[],"name":"gatsby-starter-markdown","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"4a9773549091c227cd2eb82ccd9c5e3a"},
     },{
       plugin: require('/Users/james/repos/flipperguy.github.io/node_modules/gatsby-remark-autolink-headers/gatsby-ssr'),
-      options: {"plugins":[],"className":"post-toc-anchor"},
-    },{
-      plugin: require('/Users/james/repos/flipperguy.github.io/node_modules/gatsby-remark-images/gatsby-ssr'),
-      options: {"plugins":[],"maxWidth":590},
+      options: {"plugins":[],"className":"post-toc-anchor","offsetY":0},
     },{
       plugin: require('/Users/james/repos/flipperguy.github.io/gatsby-ssr'),
       options: {"plugins":[]},

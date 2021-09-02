@@ -17,7 +17,7 @@ const IndexPage = () => {
               fontWeight: 'bold',
             }}
           >
-            FlipperGuy
+            FlipperGuy.com
           </p>
           <h2>News and Views for FB Flipper</h2>
           <br />

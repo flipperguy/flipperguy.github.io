@@ -17,9 +17,9 @@ const IndexPage = () => {
               fontWeight: 'bold',
             }}
           >
-            Gatsby Markdown Starter
+            FlipperGuy
           </p>
-          <h2>Boilerplate for markdown-based website</h2>
+          <h2>News and Views for FB Flipper</h2>
           <br />
           <Link to="/docs/get-started/introduction">
             <Button
